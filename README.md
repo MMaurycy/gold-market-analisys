@@ -41,9 +41,9 @@ The analysis requires specific input data files (CSV, XLS) which **must be obtai
     * `CPIAUCSL.csv`: Consumer Price Index for All Urban Consumers (Source: FRED)
     * `CP0000EZ19M086NEST.csv`: HICP - All items excluding energy and seasonal food - Euro area (19 countries) (Source: FRED)
     * `USEPUINDXD.csv`: Economic Policy Uncertainty Index for United States (Source: FRED / policyuncertainty.com)
-    * `XAUUSD.csv`: Gold Spot Price vs USD (Source: Investing.com Historical Data - *ensure correct filename and format*)
-    * `XAGUSD.csv`: Silver Spot Price vs USD (Source: Investing.com Historical Data - *ensure correct filename and format*)
-    * `data_gpr_daily_recent.xls`: Geopolitical Risk Index (Source: M. Iacoviello's Website - *ensure correct filename and format*)
+    * `XAUUSD.csv`: Gold Spot Price vs USD (Source: Investing.com Historical Data)
+    * `XAGUSD.csv`: Silver Spot Price vs USD (Source: Investing.com Historical Data)
+    * `data_gpr_daily_recent.xls`: Geopolitical Risk Index (Source: M. Iacoviello's Website)
 
 * **Required files for `data/Part II/` (for script `gold_market_analisys_part2_2023_2025.R`):**
     * `VIXCLS.csv`: VIX Index (Source: FRED)
@@ -52,8 +52,8 @@ The analysis requires specific input data files (CSV, XLS) which **must be obtai
     * `DGS2.csv`: Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity (Source: FRED)
     * `DTWEXBGS.csv`: Trade Weighted U.S. Dollar Index (Source: FRED)
     * `USEPUINDXD.csv`: Economic Policy Uncertainty Index for United States (Source: FRED / policyuncertainty.com)
-    * `S&P 500.csv`: S&P 500 Index Data (Source: Investing.com Historical Data - *ensure correct filename and format used by `load_investing_csv`*)
-    * `XAU_USD.csv`: Gold Spot Price vs USD (Source: Investing.com Historical Data - *ensure correct filename and format used by `load_investing_csv`*)
+    * `S&P 500.csv`: S&P 500 Index Data (Source: Investing.com Historical Data)
+    * `XAU_USD.csv`: Gold Spot Price vs USD (Source: Investing.com Historical Data)
     * `Categorical_EPU_Data.xlsx`: Categorical Economic Policy Uncertainty Data (Source: policyuncertainty.com)
     * `data_gpr_daily_recent.xls`: Geopolitical Risk Index (Source: M. Iacoviello's Website)
 
