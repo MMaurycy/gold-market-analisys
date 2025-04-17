@@ -1,0 +1,38 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# Knitr cache files
+*_cache/
+/cache/
+
+# RMarkdown files
+*.utf8.md
+*.knit.md
+
+# R Package Check files
+*.Rcheck/
+.Rinstignore
+
+# Vignette files
+inst/doc/
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+
+# /data/
+
+# /results/
